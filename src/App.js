@@ -1,21 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Todobody from "./components/Todobody";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome to Mark, Vincent and Cody App</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          This is a test
-        </a>
-      </header>
+      <p>Welcome to Mark, Vincent and Cody's TO DO APP App</p>
+      <Navbar />
+      <Todobody />
     </div>
   );
 }
